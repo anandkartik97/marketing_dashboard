@@ -12,14 +12,14 @@ st.set_page_config(
 )
 
 st.write('# What is RFM ?')
-st.write('RFM is an acronym of recency, frequency and monetary. '
+st.write('- RFM is an acronym of recency, frequency and monetary. '
          'Recency is about when was the last order of a customer. It means the number of days since a customer made the last purchase. \n')
 
-st.write('Frequency is about the number of purchase in a given period. It could be 3 months, 6 months or 1 year. '
+st.write('- Frequency is about the number of purchase in a given period. It could be 3 months, 6 months or 1 year. '
          'So we can understand this value as for how often or how many a customer used the product of a company. '
          'The bigger the value is, the more engaged the customers are. ')
 
-st.write('Monetary is the total amount of money a customer spent in that given period.'
+st.write('- Monetary is the total amount of money a customer spent in that given period.'
          'Therefore big spenders will be differentiated with other customers such as MVP or VIP.')
 
 
