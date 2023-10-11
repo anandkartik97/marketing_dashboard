@@ -14,9 +14,9 @@ st.write('- A Cohort Analysis breaks the data up in related groups rather than l
 st.write('- A Cohort Analysis is needed when calculating Customer Churn since it takes into account the natural customer lifecycle. In other words, a person that is your customer for 3 years behaves differently than a person that is a customer since 1 month.')
 
 st.write('For cohort analysis, there are a few labels that we have to create:')
-st.write('Invoice period: A string representation of the year and month of a single transaction/invoice.')
-st.write('Cohort group: A string representation of the the year and month of a customer’s first purchase. This label is common across all invoices for a particular customer.')
-st.write('Cohort period / Cohort Index: A integer representation a customer’s stage in its “lifetime”. The number represents the number of months passed since the first purchase.')
+st.write('- Invoice period: A string representation of the year and month of a single transaction/invoice.')
+st.write('- Cohort group: A string representation of the the year and month of a customer’s first purchase. This label is common across all invoices for a particular customer.')
+st.write('- Cohort period / Cohort Index: A integer representation a customer’s stage in its “lifetime”. The number represents the number of months passed since the first purchase.')
 
 df = read_and_preprocess_data()
 
