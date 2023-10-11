@@ -75,8 +75,13 @@ def segments(df):
         return 'Low Value'
 
 rfm['Value Segment'] = rfm.apply(segments,axis=1)
-
+custom_order = ['High Value', 'Mid Value', 'Low Value']
 segment_counts = rfm['Value Segment'].value_counts().reset_index()
+segment_counts['SortKey'] = segment_counts['Value Segment'].apply(lambda x: custom_order.index(x))
+segment_counts = segment_counts.sort_values(by='SortKey', ascending=True)
+segment_counts = segment_counts.drop(columns='SortKey')
+segment_counts = segment_counts.reset_index(drop=True)
+
 segment_counts.columns = ['Value Segment', 'Count']
 pastel_colors = px.colors.qualitative.Pastel
 
