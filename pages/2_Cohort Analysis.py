@@ -10,8 +10,8 @@ st.set_page_config(
 )
 
 st.markdown("<h1 style='text-align: center;'>What is Cohort Analysis ?</h1>", unsafe_allow_html=True)
-st.write('A Cohort Analysis breaks the data up in related groups rather than looking at all the customers as one unit within a defined time-span.')
-st.write('A Cohort Analysis is needed when calculating Customer Churn since it takes into account the natural customer lifecycle. In other words, a person that is your customer for 3 years behaves differently than a person that is a customer since 1 month.')
+st.write('- A Cohort Analysis breaks the data up in related groups rather than looking at all the customers as one unit within a defined time-span.')
+st.write('- A Cohort Analysis is needed when calculating Customer Churn since it takes into account the natural customer lifecycle. In other words, a person that is your customer for 3 years behaves differently than a person that is a customer since 1 month.')
 
 st.write('For cohort analysis, there are a few labels that we have to create:')
 st.write('Invoice period: A string representation of the year and month of a single transaction/invoice.')
