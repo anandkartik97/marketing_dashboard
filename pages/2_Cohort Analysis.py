@@ -9,7 +9,7 @@ st.set_page_config(
     layout="wide"
 )
 
-st.markdown("<h1 style='text-align: center; color: white;'>Cohort Analysis</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center;'>Cohort Analysis</h1>", unsafe_allow_html=True)
 
 st.write('For cohort analysis, there are a few labels that we have to create:')
 st.write('Invoice period: A string representation of the year and month of a single transaction/invoice.')
