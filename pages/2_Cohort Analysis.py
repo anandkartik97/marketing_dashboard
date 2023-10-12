@@ -45,7 +45,7 @@ fig = px.imshow(retention,
                 y=retention.index,
                 color_continuous_scale="BuPu",
                 zmin=0.0,
-                zmax=50,
+                zmax=100,
                 color_continuous_midpoint=None,
                 origin='upper')
 
